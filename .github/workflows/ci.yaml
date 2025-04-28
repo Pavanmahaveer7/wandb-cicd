@@ -8,7 +8,7 @@ jobs:
       - name: hello
         run: |
           echo "hello"
-      -name: run python script
+      - name: run python script
         run: python ci.py
 
 
